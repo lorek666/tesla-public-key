@@ -1,2 +1,5 @@
 private-key.pem
 *.pem
+
+# 允许公钥文件被追踪
+!.well-known/appspecific/com.tesla.3p.public-key.pem
